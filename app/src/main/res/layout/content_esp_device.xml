@@ -5,6 +5,7 @@
     android:id="@+id/params_parent_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/base_color"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.espressif.ui.activities.EspDeviceActivity"
     tools:showIn="@layout/activity_esp_device">
@@ -40,7 +41,7 @@
             android:alpha="0.5"
             android:padding="@dimen/margin_8"
             android:text="@string/local_device_text"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="italic" />
 
