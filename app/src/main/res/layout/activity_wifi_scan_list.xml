@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/base_color"
     android:fitsSystemWindows="true">
 
     <include layout="@layout/toolbar" />
@@ -71,13 +72,12 @@
                         app:boxBackgroundMode="none"
                         app:hintEnabled="false"
                         app:passwordToggleEnabled="true"
-                        app:passwordToggleTint="@color/colorAccent">
+                        app:passwordToggleTint="@color/color_light_gray">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/et_password"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/bg_edit_text"
                             android:hint="@string/hint_password"
                             android:imeOptions="actionGo"
                             android:importantForAutofill="no"
@@ -87,6 +87,7 @@
                             android:paddingEnd="@dimen/margin_16"
                             android:paddingBottom="@dimen/margin_18"
                             android:textColor="@color/color_text"
+                            android:textColorHint="@color/color_light_gray"
                             android:textSize="16sp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
@@ -110,7 +111,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Save password" />
+                            android:text="Save password"
+                            android:textColor="@color/color_light_gray" />
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -165,7 +167,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/margin_16"
             android:text="@string/progress_wifi_scan"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/color_light_gray"
             android:textSize="18sp" />
     </RelativeLayout>
 

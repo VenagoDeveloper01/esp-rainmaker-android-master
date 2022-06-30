@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_background"
+    android:background="@color/base_color"
     android:fitsSystemWindows="true">
 
     <include layout="@layout/toolbar" />
@@ -24,6 +24,7 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_group_list"
+                android:background=""
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingStart="@dimen/margin_16"

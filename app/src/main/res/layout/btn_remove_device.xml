@@ -12,7 +12,7 @@
         android:id="@+id/layout_btn_remove"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color_remove"
+        android:background="@color/base_orange"
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingTop="18dp"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
             android:text="@string/btn_remove"
-            android:textColor="@color/color_orange"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
 

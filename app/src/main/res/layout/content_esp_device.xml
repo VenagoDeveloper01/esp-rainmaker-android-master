@@ -79,12 +79,14 @@
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_dynamic_param_list"
+                   android:background="@drawable/bg_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scrollbars="vertical" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_static_param_list"
+                    android:background="@drawable/bg_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/rv_dynamic_param_list"
