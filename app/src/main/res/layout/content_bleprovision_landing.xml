@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_background"
+    android:background="@color/base_color"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_bleprovision_landing">
 
@@ -26,7 +26,7 @@
             android:text="@string/prefix"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <TextView
@@ -70,6 +70,7 @@
         android:padding="@dimen/margin_18"
         android:text="@string/enable_bluetooth_instructions"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@id/devices_layout"
@@ -97,7 +98,7 @@
             android:text="@string/devices_title"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -105,6 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_devices"
+            android:background="@drawable/bg_edit_text"
             android:scrollbars="vertical" />
 
     </RelativeLayout>
@@ -113,6 +115,7 @@
         android:id="@+id/ble_landing_progress_indicator"
         style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
         android:layout_width="wrap_content"
+        android:theme="@style/AppTheme.PurpleAccent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         app:layout_constraintBottom_toBottomOf="parent"

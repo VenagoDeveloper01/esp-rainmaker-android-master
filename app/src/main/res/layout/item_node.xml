@@ -48,7 +48,8 @@
             android:id="@+id/rv_device_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/rl_device" />
+            android:layout_below="@id/rl_device"
+            android:background="@drawable/bg_edit_text" />
 
     </RelativeLayout>
 
