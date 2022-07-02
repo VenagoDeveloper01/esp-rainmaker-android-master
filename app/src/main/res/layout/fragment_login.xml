@@ -199,7 +199,7 @@
             android:alpha="0.5"
             android:lineSpacingExtra="6sp"
             android:text="App Version : v1.0"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/color_light_gray"
             android:textSize="11sp"/>
 
     </LinearLayout>

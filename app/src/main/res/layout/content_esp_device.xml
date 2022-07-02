@@ -43,7 +43,7 @@
             android:text="@string/local_device_text"
             android:textColor="@color/white"
             android:textSize="14sp"
-            android:textStyle="italic" />
+            android:textStyle="normal" />
 
     </RelativeLayout>
 
@@ -79,9 +79,9 @@
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_dynamic_param_list"
-                   android:background="@drawable/bg_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edit_text"
                     android:scrollbars="vertical" />
 
                 <androidx.recyclerview.widget.RecyclerView

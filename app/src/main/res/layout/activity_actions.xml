@@ -3,11 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/base_color"
-    android:fitsSystemWindows="true">
 
+    android:fitsSystemWindows="true">
     <include layout="@layout/toolbar" />
 
-    <include layout="@layout/content_actions" />
+    <include layout="@layout/content_actions"  />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

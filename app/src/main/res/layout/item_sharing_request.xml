@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
+    android:background="@color/base_color"
     android:layout_marginBottom="8dp"
-    card_view:cardBackgroundColor="@android:color/white"
     card_view:cardCornerRadius="8dp"
     card_view:cardElevation="2dp"
     card_view:cardUseCompatPadding="true">
@@ -20,6 +20,8 @@
             android:id="@+id/ll_schedule_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_32"
+            android:background="@drawable/bg_edit_text"
             android:orientation="vertical"
             android:padding="@dimen/margin_10">
 
@@ -29,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:layout_marginBottom="2dp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
         </LinearLayout>
@@ -53,29 +55,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@color/base_orange"
                 android:gravity="center"
                 android:paddingTop="@dimen/margin_16"
                 android:paddingBottom="@dimen/margin_16"
+                android:layout_marginLeft="@dimen/margin_32"
+                android:layout_marginRight="@dimen/margin_32"
+
                 android:text="@string/btn_deny"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
                 android:alpha="0.5"
-                android:background="@android:color/darker_gray" />
+                android:background="@color/white" />
 
             <TextView
                 android:id="@+id/btn_accept"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin_32"
+
                 android:gravity="center"
                 android:paddingTop="@dimen/margin_16"
+                android:layout_marginLeft="@dimen/margin_32"
                 android:paddingBottom="@dimen/margin_16"
                 android:text="@string/btn_accept"
-                android:textColor="@color/colorPrimary"
+                android:background="@color/base_orange"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
         </LinearLayout>
