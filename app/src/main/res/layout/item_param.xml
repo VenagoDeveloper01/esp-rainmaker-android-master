@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
     android:layout_marginBottom="8dp"
-    card_view:cardBackgroundColor="@color/color_background"
+    android:background="@color/base_color"
     card_view:cardCornerRadius="8dp"
     card_view:cardElevation="1dp"
     card_view:cardUseCompatPadding="true">
@@ -15,6 +15,7 @@
         android:id="@+id/rl_card_slider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
         android:padding="8dp"
         android:visibility="visible">
 

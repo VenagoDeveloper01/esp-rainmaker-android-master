@@ -138,7 +138,6 @@
                     android:layout_marginTop="@dimen/margin_10"
                     android:background="@android:color/transparent"
                     android:gravity="top"
-                    android:textColorHint="@color/text_color_light_grey"
                     android:hint="@string/hint_description"
                     android:imeOptions="actionDone"
                     android:inputType="text"
@@ -146,6 +145,8 @@
                     android:maxLines="10"
                     android:scrollbars="vertical"
                     android:scrollHorizontally="false"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_color_light_grey"
                     android:textSize="16sp" />
 
             </RelativeLayout>
