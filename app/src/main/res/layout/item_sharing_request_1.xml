@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
-    android:background="@color/base_color"
     android:layout_marginBottom="8dp">
 
     <RelativeLayout
@@ -17,7 +16,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:padding="@dimen/margin_10"
-            android:textColor="@drawable/bg_edit_text"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -31,8 +29,8 @@
                 android:id="@+id/btn_decline"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
                 android:layout_margin="@dimen/margin_8"
+                android:layout_weight="0.5"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="1dp"
                 app:strokeColor="@color/color_light_gray"
@@ -60,8 +58,8 @@
                 android:id="@+id/btn_accept"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.5"
                 android:layout_margin="@dimen/margin_8"
+                android:layout_weight="0.5"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="1dp"
                 app:strokeColor="@color/color_light_gray"
