@@ -83,17 +83,16 @@
                 app:layout_constraintTop_toBottomOf="@id/rv_user_profile">
 
                 <TextView
-                    android:layout_width="94dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:background="@color/base_orange"
+                    android:background="@drawable/circular_button"
                     android:paddingTop="@dimen/margin_8"
                     android:paddingBottom="@dimen/margin_8"
-
                     android:text="@string/btn_logout"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"/>
 
             </RelativeLayout>
 
