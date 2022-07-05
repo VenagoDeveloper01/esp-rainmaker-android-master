@@ -8,18 +8,21 @@
     <include layout="@layout/toolbar" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/margin_32"
         android:background="@color/base_color"
+        android:padding="@dimen/margin_32"
+        app:layout_anchor="@+id/constraintLayout2"
+        app:layout_anchorGravity="center"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <ImageView
             android:id="@+id/iv_provisioning"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="325dp"
+            android:layout_height="268dp"
             android:layout_marginTop="@dimen/margin_32"
-            android:src="@drawable/ic_connect_device"
+            android:src="@drawable/connecting"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">

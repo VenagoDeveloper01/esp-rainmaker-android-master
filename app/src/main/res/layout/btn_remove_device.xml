@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
             android:text="@string/btn_remove"
-            android:textColor="@color/white"
+            android:textColor="@color/alert"
             android:textSize="16sp"
             android:textStyle="bold" />
 
