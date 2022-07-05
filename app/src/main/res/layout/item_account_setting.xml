@@ -30,10 +30,10 @@
 
             <TextView
                 android:id="@+id/tv_group_name"
-                android:background="@drawable/bg_edit_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
+                android:background="@drawable/bg_edit_text"
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:padding="@dimen/margin_16"

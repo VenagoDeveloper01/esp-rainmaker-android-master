@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/base_color"
     android:fitsSystemWindows="true">
     <include layout="@layout/toolbar" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/base_color"
         android:fillViewport="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
@@ -39,7 +39,6 @@
                         android:id="@+id/rv_node_details_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_edit_text"
                         android:layout_marginTop="@dimen/margin_16"
                         android:layout_marginBottom="@dimen/margin_32"
                         android:nestedScrollingEnabled="false"
