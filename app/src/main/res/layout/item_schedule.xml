@@ -13,9 +13,9 @@
 
     <RelativeLayout
         android:id="@+id/ll_schedule_item"
-        android:background="@color/base_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/base_color"
         android:padding="18dp">
 
         <RelativeLayout

@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/bg_edit_text"
+                android:background="@drawable/ic_circular_white_btn"
                 android:hapticFeedbackEnabled="true"
                 android:numbersBackgroundColor="@color/white"
                 android:numbersInnerTextColor="@color/white"

@@ -75,7 +75,6 @@
                 android:id="@+id/rl_logout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/base_orange"
                 android:layout_marginTop="@dimen/margin_32"
                 android:padding="@dimen/margin_8"
                 android:visibility="visible"

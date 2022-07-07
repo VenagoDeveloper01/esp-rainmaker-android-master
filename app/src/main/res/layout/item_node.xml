@@ -21,7 +21,6 @@
 
             <TextView
                 android:id="@+id/tv_node_name"
-                android:background="@color/text_box_color"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -31,7 +30,7 @@
                 android:paddingEnd="@dimen/margin_10"
                 android:paddingBottom="@dimen/margin_10"
                 android:text="My Light Bulb"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/holo_orange_light"
                 android:textSize="17sp" />
 
             <ImageView

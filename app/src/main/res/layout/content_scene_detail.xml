@@ -24,8 +24,11 @@
                 android:id="@+id/rl_scene_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginEnd="@dimen/margin_8"
+
                 android:layout_marginTop="@dimen/margin_16"
-                android:background="@color/text_box_color"
+                android:background="@drawable/bg_edit_text"
                 android:padding="@dimen/margin_16">
 
                 <TextView
@@ -67,8 +70,10 @@
                 android:id="@+id/rl_actions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
                 android:layout_marginTop="@dimen/margin_16"
-                android:background="@color/text_box_color"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:background="@drawable/bg_edit_text"
                 android:padding="@dimen/margin_16">
 
                 <TextView
@@ -103,8 +108,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_actions"
-                android:background="@color/text_box_color"
+                android:background="@drawable/bg_edit_text"
                 android:padding="@dimen/margin_8"
+                android:layout_marginStart="@dimen/margin_8"
+                android:layout_marginEnd="@dimen/margin_8"
                 android:paddingStart="@dimen/margin_16"
                 android:text="Light, Switch, Bedroom Fan"
                 android:textColor="@color/text_color_light_grey"
@@ -115,8 +122,10 @@
                 android:id="@+id/rl_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
                 android:layout_marginTop="@dimen/margin_16"
-                android:background="@color/text_box_color"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:background="@drawable/bg_edit_text"
                 android:padding="@dimen/margin_16">
 
                 <TextView
